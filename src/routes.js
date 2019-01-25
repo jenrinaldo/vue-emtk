@@ -92,6 +92,11 @@ export default [
 		props: DepartProps.ketua
 	},
 	{
+		path: '/emtk/sekretaris',
+		component: Nondepartemen,
+		props: DepartProps.sekretaris
+	},
+	{
 		path: '/emtk/bendahara-audit',
 		component: Nondepartemen,
 		props: DepartProps.bandit

@@ -17,8 +17,25 @@
 							</clipPath>
 						</defs>
 						<polygon points="140,0 280,66 280,214 140,280 0,214 0,66" clip-path="url(#textbottom)" class="bottom-text" />
-						<image xlink:href="/public/images/departemen/waka.jpg" x="0" y="0" width="280px" clip-path="url(#foto)"/>
-						<text transform="rotate(6)" x="140" y="185" text-anchor="middle" class="deptnama">ketua &amp; wakil ketua</text>
+						<image xlink:href="/public/images/departemen/rifan.jpg" x="0" y="0" width="280px" clip-path="url(#foto)"/>
+						<text transform="rotate(6)" x="140" y="185" text-anchor="middle" class="deptnama">ketua</text>
+					</svg>
+				</router-link>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 center-align">
+				<router-link to="/emtk/sekretaris" exact class="dept-hexa staggeredAnim">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="280" height="280">
+						<defs>
+							<clipPath id="textbottom">
+								<polygon points="0,160 280,190 280,280 0,280" />
+							</clipPath>
+							<clipPath id="foto">
+								<polygon points="0,150 0,66 140,0 280,66 280,180" />
+							</clipPath>
+						</defs>
+						<polygon points="140,0 280,66 280,214 140,280 0,214 0,66" clip-path="url(#textbottom)" class="bottom-text" />
+						<image xlink:href="/public/images/departemen/sri.jpg" x="0" y="0" width="280px" clip-path="url(#foto)"/>
+						<text transform="rotate(6)" x="140" y="185" text-anchor="middle" class="deptnama">sekretaris</text>
 					</svg>
 				</router-link>
 			</div>
@@ -34,7 +51,7 @@
 							</clipPath>
 						</defs>
 						<polygon points="140,0 280,66 280,214 140,280 0,214 0,66" clip-path="url(#textbottom)" class="bottom-text" />
-						<image xlink:href="/public/images/departemen/bendahara.jpg" x="0" y="0" width="280px" clip-path="url(#foto)"/>
+						<image xlink:href="/public/images/departemen/salsa.jpg" x="0" y="0" width="280px" clip-path="url(#foto)"/>
 						<text transform="rotate(6)" x="140" y="185" text-anchor="middle" class="deptnama">bendahara &amp; audit</text>
 					</svg>
 				</router-link>

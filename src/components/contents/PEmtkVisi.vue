@@ -7,13 +7,13 @@
 		<div class="main-article">
 	      <p class="staggeredAnim"><b>Visi :</b></p>
 		      <p class="staggeredAnim">
-		        "Harmonis dalam ikatan keduluran."
+		        "Mewujudkan EMTK sebagai lembaga eksekutif kemahasiswaan yang bertanggung jawab, aktif dan koordinatif (BERANI) dengan berdasarkan asas kekeluargaan."
 		      </p>
 		      <p class="staggeredAnim"><b>Misi :</b></p>
 		      <ol type="1" class="staggeredAnim">
-		        <li>Mempererat ikatan kekeluargaan dulur HIMATEKKOM</li>
-		        <li>Advokasi cepat tanggap demi kesejahteraan HIMATEKKOM</li>
-		        <li>Mengasah kreasi dan inovasi demi meningkatnya prestasi dulur HIMATEKKOM</li>
+		        <li>Membangun sistem kerja yang terstruktur, profesional, dan mandiri.</li>
+		        <li>Pengolahan masalah terkait himatekkom dengan gerakan yang kreatif dan solutif.</li>
+		        <li>Pembuatan program kerja dengan target yang specific, measurerable, achieveable, relevant, dan time bound (SMART).</li>
 		      </ol>
 		</div>
 		
