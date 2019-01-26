@@ -1,8 +1,8 @@
 export default {
 	adkest: {
 		deptnama : {
-			pendek : 'adkest',
-			panjang : 'administrasi & kesekretariatan'
+			pendek : 'Adkest',
+			panjang : 'Administrasi & Kesekretariatan'
 		},
 		desc : [
 			'Mengatur administrasi organisasi sesuai dengan AD & ART serta segala peraturan keputusan.',
@@ -43,8 +43,8 @@ export default {
 	},
 	advokesma: {
 		deptnama : {
-			pendek : 'advokesma',
-			panjang : 'advokasi & kesejahteraan mahasiswa'
+			pendek : 'Advokesma',
+			panjang : 'Advokasi & Kesejahteraan Mahasiswa'
 		},
 		desc : [
 			'Bergerak dalam memperjuangkan akan hak-hak mahasiswa(i) Teknik Komputer.',
@@ -100,8 +100,8 @@ export default {
 	},
 	infokom: {
 		deptnama : {
-			pendek : 'infokom',
-			panjang : 'informasi & komunikasi'
+			pendek : 'Infokom',
+			panjang : 'Informasi & Komunikasi'
 		},
 		desc : [
 			'Menaungi segala informasi seputar prodi Teknik Komputer baik melalui media sosial maupun sosialisasi langsung.',
@@ -184,8 +184,8 @@ export default {
 	},
 	kwu: {
 		deptnama : {
-			pendek : 'kwu',
-			panjang : 'kewirausahaan'
+			pendek : 'Kwu',
+			panjang : 'Kewirausahaan'
 		},
 		desc : [
 			'Menghimpun potensi wirausaha dari mahasiswa Teknik Komputer.',
@@ -241,8 +241,8 @@ export default {
 	},
 	psdm: {
 		deptnama : {
-			pendek : 'psdm',
-			panjang : 'pengembangan sumber daya manusia'
+			pendek : 'PSDM',
+			panjang : 'Pengembangan Sumber Daya Manusia'
 		},
 		desc : [
 			'Sebagai wadah, konseptor dan fasilitator pengembangan sumber daya manusia Teknik Komputer guna meningkatkan kemampuan softskill, kretifitas, dan potensi yang ada.',
@@ -315,8 +315,8 @@ export default {
 	},
 	sosma: {
 		deptnama : {
-			pendek : 'sosma',
-			panjang : 'sosial masyarakat'
+			pendek : 'Sosma',
+			panjang : 'Sosial Masyarakat'
 		},
 		desc : [
 			'Sebagai penerapan poin Tri Dharma Perguruan TInggi tentang Pengabdian Kepada Masyarakat',
@@ -412,9 +412,9 @@ export default {
 				ig : ''
 			},
 			{
-				nama : 'Slamet Arifmawan',
-				sebagai : 'Juru Bicara',
-				foto : '/public/images/departemen/andrean.jpg',
+				nama : 'Marsha Nur.',
+				sebagai : 'Humas',
+				foto : '/public/images/departemen/marsha.jpg',
 				ig : ''
 			},
 			{
@@ -424,7 +424,7 @@ export default {
 				ig : ''
 			},
 			{
-				nama : 'Marsha Nur',
+				nama : 'Aisyah',
 				sebagai : 'Bendahara',
 				foto : '/public/images/departemen/marsha.jpg',
 				ig : ''
@@ -432,19 +432,19 @@ export default {
 		],
 		komisis : [
 			{
-				nama : 'Seprianto S.',
+				nama : 'Naufal Amudi',
 				sebagai : 'Undang-Undang',
 				foto : '/public/images/departemen/sepri.jpg',
 				ig : ''
 			},
 			{
-				nama : 'Naufal Amudi',
+				nama : 'Andika Bayhaki',
 				sebagai : 'Pengawasan',
 				foto : '/public/images/departemen/irfani.jpg',
 				ig : ''
 			},
 			{
-				nama : 'Andika Bayhaki',
+				nama : 'Slamet Arifmawan',
 				sebagai : 'Aspirasi Mahasiswa',
 				foto : '/public/images/departemen/yuviero.jpg',
 				ig : ''
