@@ -15,7 +15,7 @@ export default {
 				{
 					nama : 'M. Rheza Caesardi',
 					sebagai : 'Ketua Dept.',
-					foto : '/public/images/departemen/ayudewi.jpg',
+					foto : '/public/images/departemen/Rheza pp.png',
 					ig : ''
 				}
 			],
@@ -23,7 +23,7 @@ export default {
 				{
 					nama : 'Mahesa Bayu',
 					sebagai : 'Wa. Ketua Dept.',
-					foto : '/public/images/departemen/mahesa.jpg',
+					foto : '/public/images/departemen/Bayu pp.png',
 					ig : ''
 				}
 			]
@@ -31,12 +31,12 @@ export default {
 		deptstaffs: [
 			{
 				nama : 'Alfatehan Arsya Baharin',
-				foto : '/public/images/departemen/zaky.jpg',
+				foto : '/public/images/departemen/Arsya PP.png',
 				ig : ''
 			},
 			{
 				nama : 'Crystina Eka Putri Wijayanti',
-				foto : '/public/images/departemen/mahesa.jpg',
+				foto : '/public/images/departemen/Christyna pp.png',
 				ig : ''
 			},
 		]
@@ -57,7 +57,7 @@ export default {
 				{
 					nama : 'Ahmad Rizqi Pratama',
 					sebagai : 'Ketua Dept.',
-					foto : '/public/images/departemen/rizqi.jpg',
+					foto : '/public/images/departemen/Rizky pp.png',
 					ig : ''
 				}
 			],
@@ -65,7 +65,7 @@ export default {
 				{
 					nama : 'Zulfina Kharisma Frimananda',
 					sebagai : 'Wa. Ketua Dept.',
-					foto : '/public/images/departemen/zulfina.jpg',
+					foto : '/public/images/departemen/fina pp.png',
 					ig : ''
 				}
 			]
@@ -73,27 +73,27 @@ export default {
 		deptstaffs: [
 			{
 				nama : 'Rhaka Gemilang Sentosa',
-				foto : '/public/images/departemen/dimas.jpg',
+				foto : '/public/images/departemen/rhaka pp.png',
 				ig : ''
 			},
 			{
 				nama : 'Dwiki Ilham Bagaskara',
-				foto : '/public/images/departemen/oliv.jpg',
+				foto : '/public/images/departemen/ilham pp.png',
 				ig : ''
 			},
 			{
 				nama : 'Akbar Wira Bramantya',
-				foto : '/public/images/departemen/dedy.jpg',
+				foto : '/public/images/departemen/bram pp.png',
 				ig : ''
 			},
 			{
 				nama : 'Lia Safitri',
-				foto : '/public/images/departemen/zulfina.jpg',
+				foto : '/public/images/departemen/lia pp.png',
 				ig : ''
 			},
 			{
 				nama : 'Bagas Nur Rahman',
-				foto : '/public/images/departemen/rizqi.jpg',
+				foto : '/public/images/departemen/bagas pp.png',
 				ig : ''
 			}
 		]
@@ -114,7 +114,7 @@ export default {
 				{
 					nama : 'Jenrinaldo Tampubolon',
 					sebagai : 'Ketua Dept.',
-					foto : '/public/images/departemen/syahriel.jpg',
+					foto : '/public/images/departemen/jenrinaldo pp.png',
 					ig : ''
 				},
 				// {
@@ -128,7 +128,7 @@ export default {
 				{
 					nama : 'Erricson Bernedy',
 					sebagai : 'Wa. Ketua Dept.',
-					foto : '/public/images/departemen/oggy.jpg',
+					foto : '/public/images/departemen/eric pp.png',
 					ig : ''
 				},
 				// {
@@ -142,42 +142,42 @@ export default {
 		deptstaffs: [
 			{
 				nama : 'Naufal Anis',
-				foto : '/public/images/departemen/naufalanis.jpg',
+				foto : '/public/images/departemen/anis pp.png',
 				ig : ''
 			},
 			{
 				nama : 'Tedy Kurniawan',
-				foto : '/public/images/departemen/ida.jpg',
+				foto : '/public/images/departemen/tedy pp.png',
 				ig : ''
 			},
 			{
 				nama : 'Rejeki Puspa Dinasty',
-				foto : '/public/images/departemen/nico.jpg',
+				foto : '/public/images/departemen/mpus pp.png',
 				ig : ''
 			},
 			{
 				nama : 'Muhammad Bilal',
-				foto : '/public/images/departemen/ananda.jpg',
+				foto : '/public/images/departemen/bilal pp.png',
 				ig : ''
 			},
 			{
 				nama : 'Fahmi Ardiansyah',
-				foto : '/public/images/departemen/salsa.jpg',
+				foto : '/public/images/departemen/fahmi pp.png',
 				ig : ''
 			},
 			{
 				nama : 'Muhammad Rafi Zaman',
-				foto : '/public/images/departemen/meidiana.jpg',
+				foto : '/public/images/departemen/rafi pp.png',
 				ig : ''
 			},
 			{
 				nama : 'Abdul Muiz Anggit Budiyantoyo',
-				foto : '/public/images/departemen/budi.jpg',
+				foto : '/public/images/departemen/muiz pp.png',
 				ig : ''
 			},
 			{
 				nama : 'Nugraheny Wahyu Try',
-				foto : '/public/images/departemen/hanif.jpg',
+				foto : '/public/images/departemen/nug pp.png',
 				ig : ''
 			},
 		]
@@ -198,7 +198,7 @@ export default {
 				{
 					nama : 'Hani Firdausiah',
 					sebagai : 'Ketua Dept.',
-					foto : '/public/images/departemen/linda.jpg',
+					foto : '/public/images/departemen/uus pp.png',
 					ig : ''
 				}
 			],
@@ -206,7 +206,7 @@ export default {
 				{
 					nama : 'Sulton Arif Wicaksono',
 					sebagai : 'Wa. Ketua Dept.',
-					foto : '/public/images/departemen/hani.jpg',
+					foto : '/public/images/departemen/sulthon pp.png',
 					ig : ''
 				}
 			]
@@ -214,27 +214,27 @@ export default {
 		deptstaffs: [
 			{
 				nama : 'Renita Leluxy Sofiana',
-				foto : '/public/images/departemen/fajar.jpg',
+				foto : '/public/images/departemen/renita pp.png',
 				ig : ''
 			},
 			{
 				nama : 'Leina  Alimi Zain',
-				foto : '/public/images/departemen/leina.jpg',
+				foto : '/public/images/departemen/leina pp.png',
 				ig : ''
 			},
 			{
 				nama : 'Fauzan Rivaldi',
-				foto : '/public/images/departemen/masyita.jpg',
+				foto : '/public/images/departemen/fauzan pp.png',
 				ig : ''
 			},
 			{
 				nama : 'Frida Wahyu Krismadani',
-				foto : '/public/images/departemen/mila.jpg',
+				foto : '/public/images/departemen/frida pp.png',
 				ig : ''
 			},
 			{
 				nama : 'Althaf Banafsaj Yudhistira',
-				foto : '/public/images/departemen/irfan.jpg',
+				foto : '/public/images/departemen/aal pp.png',
 				ig : ''
 			}
 		]
@@ -255,7 +255,7 @@ export default {
 				{
 					nama : 'Dipatya Sakasana',
 					sebagai : 'Ketua Dept.',
-					foto : '/public/images/departemen/nafisa.jpg',
+					foto : '/public/images/departemen/dipa pp.png',
 					ig : ''
 				},
 				// {
@@ -269,7 +269,7 @@ export default {
 				{
 					nama : 'Muhammad Jibriel Bachtiar',
 					sebagai : 'Wa. Ketua Dept.',
-					foto : '/public/images/departemen/gusti.jpg',
+					foto : '/public/images/departemen/jibriel pp.png',
 					ig : ''
 				},
 				// {
@@ -283,32 +283,32 @@ export default {
 		deptstaffs: [
 			{
 				nama : 'Holden Gunawan',
-				foto : '/public/images/departemen/holden.jpg',
+				foto : '/public/images/departemen/holden pp.png',
 				ig : ''
 			},
 			{
 				nama : 'Amalia Septi',
-				foto : '/public/images/departemen/inggrid.jpg',
+				foto : '/public/images/departemen/liaa pp.png',
 				ig : ''
 			},
 			{
 				nama : 'Muhammad Fachri Hasibuan',
-				foto : '/public/images/departemen/andre.jpg',
+				foto : '/public/images/departemen/fachri pp.png',
 				ig : ''
 			},
 			{
 				nama : 'Wildana Tsani',
-				foto : '/public/images/departemen/wildan.jpg',
+				foto : '/public/images/departemen/wildan pp.png',
 				ig : ''
 			},
 			{
 				nama : 'Ihsan Sulaiman',
-				foto : '/public/images/departemen/naufal.jpg',
+				foto : '/public/images/departemen/ihsan pp.png',
 				ig : ''
 			},
 			{
 				nama : 'Noza Trisnasari',
-				foto : '/public/images/departemen/ghifarie.jpg',
+				foto : '/public/images/departemen/noza pp.png',
 				ig : ''
 			}
 		]
@@ -328,7 +328,7 @@ export default {
 				{
 					nama : 'David Isura',
 					sebagai : 'Ketua Dept.',
-					foto : '/public/images/departemen/david.jpg',
+					foto : '/public/images/departemen/david pp.png',
 					ig : ''
 				}
 			],
@@ -336,7 +336,7 @@ export default {
 				{
 					nama : 'Andre Ananda Pratama',
 					sebagai : 'Wa. Ketua Dept.',
-					foto : '/public/images/departemen/andre.jpg',
+					foto : '/public/images/departemen/andre pp.png',
 					ig : ''
 				}
 			]
@@ -344,22 +344,22 @@ export default {
 		deptstaffs: [
 			{
 				nama : 'Hamzah Attamimi',
-				foto : '/public/images/departemen/muchtar.jpg',
+				foto : '/public/images/departemen/attamimi pp.png',
 				ig : ''
 			},
 			{
 				nama : 'Othman Batubara Mirizi',
-				foto : '/public/images/departemen/renita.jpg',
+				foto : '/public/images/departemen/othman pp.png',
 				ig : ''
 			},
 			{
 				nama : 'Nyoman Kresna',
-				foto : '/public/images/departemen/farah.jpg',
+				foto : '/public/images/departemen/Nyoman pp.png',
 				ig : ''
 			},
 			{
 				nama : 'Yusril',
-				foto : '/public/images/departemen/nugraheny.jpg',
+				foto : '/public/images/departemen/yusril pp.png',
 				ig : ''
 			},
 		]
@@ -370,7 +370,7 @@ export default {
 			{
 				nama : 'Muhammad Rifqi Radifan Masruri ',
 				sebagai : 'Ketua EMTK',
-				foto : '/public/images/departemen/taufiq.jpg',
+				foto : '/public/images/departemen/rifan pp.png',
 				ig : ''
 			},
 			// {
@@ -381,24 +381,19 @@ export default {
 			// }
 		]
 	},
-	sekretaris : {
-		deptnama : 'Sekretaris',
+	sekben : {
+		deptnama : 'Sekretaris & Bendahara',
 		pers : [
 			{
 				nama : 'Sri Mayena',
 				sebagai : 'Sekretaris',
-				foto : '/public/images/departemen/sri.jpg',
+				foto : '/public/images/departemen/yena pp.png',
 				ig : ''
-			}
-		]
-	},
-	bandit : {
-		deptnama : 'Bendahara & Audit',
-		pers : [
+			},
 			{
 				nama : 'Salsabiil Hasanah',
 				sebagai : 'Bendahara',
-				foto : '/public/images/departemen/salsa.jpg',
+				foto : '/public/images/departemen/salsa pp.png',
 				ig : ''
 			},
 		]
@@ -408,45 +403,45 @@ export default {
 			{
 				nama : 'Yuviero Benvicko',
 				sebagai : 'Kordinator',
-				foto : '/public/images/departemen/yuviero.jpg',
+				foto : '/public/images/departemen/vicko pp.png',
 				ig : ''
 			},
 			{
 				nama : 'Marsha Nur.',
 				sebagai : 'Humas',
-				foto : '/public/images/departemen/marsha.jpg',
+				foto : '/public/images/departemen/marsha pp.png',
 				ig : ''
 			},
 			{
 				nama : 'Adji Kuncoro Bangun',
 				sebagai : 'Sekretaris',
-				foto : '/public/images/departemen/prananda.jpg',
+				foto : '/public/images/departemen/aji pp.png',
 				ig : ''
 			},
 			{
 				nama : 'Aisyah',
 				sebagai : 'Bendahara',
-				foto : '/public/images/departemen/marsha.jpg',
+				foto : '/public/images/departemen/aisyah pp.png',
 				ig : ''
 			}
 		],
 		komisis : [
 			{
-				nama : 'Naufal Amudi',
+				nama : 'Naufal Jamal Al Amudi',
 				sebagai : 'Undang-Undang',
-				foto : '/public/images/departemen/sepri.jpg',
+				foto : '/public/images/departemen/Jamal pp.png',
 				ig : ''
 			},
 			{
 				nama : 'Andika Bayhaki',
 				sebagai : 'Pengawasan',
-				foto : '/public/images/departemen/irfani.jpg',
+				foto : '/public/images/departemen/andhika.png',
 				ig : ''
 			},
 			{
 				nama : 'Slamet Arifmawan',
 				sebagai : 'Aspirasi Mahasiswa',
-				foto : '/public/images/departemen/yuviero.jpg',
+				foto : '/public/images/departemen/slamet pp.png',
 				ig : ''
 			}
 		]

@@ -2,7 +2,7 @@
   <div class="m-fnt">
     <img class="loading" src="/public/assets/spiner-802.svg" v-if="postLoad">
     <div v-images-loaded:on="callback">
-      <img class="route-lazy waitImg" src="/public/images/wallpaper/4.jpg" width="1643px" height="960px">
+      <img class="route-lazy waitImg" src="/public/images/wallpaper/home.png" width="1643px" height="960px">
       <div class="wallpaper"></div>
       <div class="grad-overlay"></div>
       <div class="center-align">
@@ -250,7 +250,7 @@ export default {
     height: 100%;
     top: 0;
     left: 0;
-    background: url(/public/images/wallpaper/4.jpg) no-repeat center center;
+    background: url(/public/images/wallpaper/home.png) no-repeat center center;
     background-size: cover;
     z-index: -1;
    /* opacity: 0.5;*/

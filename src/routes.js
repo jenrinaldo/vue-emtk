@@ -87,19 +87,14 @@ export default [
 		component: Jajaran
 	},
 	{
-		path: '/emtk/ketua-wakil',
+		path: '/emtk/ketua',
 		component: Nondepartemen,
 		props: DepartProps.ketua
 	},
 	{
-		path: '/emtk/sekretaris',
+		path: '/emtk/sekben',
 		component: Nondepartemen,
-		props: DepartProps.sekretaris
-	},
-	{
-		path: '/emtk/bendahara-audit',
-		component: Nondepartemen,
-		props: DepartProps.bandit
+		props: DepartProps.sekben
 	},
 	{
 		path: '/emtk/adkest',
