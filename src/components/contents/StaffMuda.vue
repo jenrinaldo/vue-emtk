@@ -5,6 +5,7 @@
     <h1 class="staggeredAnim content-title">Pengumuman Staff Muda</h1>
     <h6 class="staggeredAnim content-caption">Masukkan NIM !</h6>
     <input class="staggeredAnim" type="text" placeholder="Check" v-model="filterText">
+    <button class="staggered-right" type="submit" v-on:click="getPost" >Cari</button>
     <h3 class="async-msg" v-if="responsemsg != '' ">{{ responsemsg }}</h3>
     <img class="loading" src="/public/assets/spiner-802.svg" v-if="postLoad">
     <div class="back-header"></div>
@@ -48,12 +49,9 @@
       },
       getPost () {
         this.postLoad = true;
-        this.$http.get('staffM.php', {
-           params: {
-             filterText: this.filterText
-           }}).then(response => {
+        this.$http.get('/public/posts/feeds.php?c=staffMuda&t=staffM&p='+this.filterText).then(response => {
           if (!response.body.list) {
-            this.errorMsg('Tidak ada pengumuman.');
+            this.errorMsg('NIM tidak ditemukan.');
           } else {
             this.list = this.list.concat(response.body.list);
           }

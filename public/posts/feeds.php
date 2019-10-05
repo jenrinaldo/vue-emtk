@@ -8,22 +8,8 @@ date_default_timezone_set("Asia/Jakarta");
 
 include 'connect.php';
 
-$condition = "1";
-if(isset($_GET['filterText'])){
-   $condition = " id=".$_GET['filterText'];
-}
-$userData = mysqli_query($con,"select * from staffMuda WHERE ".$condition);
-
-$response = array();
-
-while($row = mysqli_fetch_assoc($userData)){
-
-   $response[] = $row;
-}
-
-echo json_encode($response);
-
 $type = $_GET['t'];
+$par = $_GET['p'];
 
 function get_list($connect, $what) {
 
@@ -170,6 +156,41 @@ function get_data($connect, $what) {
 	return $result;
 }
 
+function get_staff($connect, $what, $params) {
+
+	if (!isset($params)){
+		echo false;
+		exit;
+	}
+
+	$sql = "SELECT *
+			FROM $what
+			WHERE nim = '$params'";
+
+	$querying = $connect->query($sql);
+
+	$result = new StdClass;
+
+	if ($querying->num_rows == 1) {
+		$json = new StdClass;
+
+		$row = $querying->fetch_assoc();
+
+		$json->nim = $row['nim'];
+		$json->nama = $row['nama'];
+		$json->status = $row['status'];
+
+		$result->data = $json;
+
+	} else {
+		
+		$result->data = false;
+	}
+
+	return $result;
+}
+
+
 function get_list_data($connect, $what) {
 
 	$result = new StdClass;
@@ -256,6 +277,10 @@ switch ($type) {
 
 	case 'data':
 		echo json_encode(get_data($conn, $_GET['c']));
+		break;
+
+	case 'staffM':
+		echo json_encode(get_staff($conn, $_GET['c'], $par));
 		break;
 
 	case 'data-list':
