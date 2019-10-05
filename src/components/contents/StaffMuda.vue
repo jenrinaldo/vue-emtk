@@ -3,25 +3,27 @@
     <div class="hexa hexa-left staggeredAnim"><img src="/public/assets/hexa.svg" height="54px"></div>
         <div class="hexa hexa-right staggeredAnim"><img src="/public/assets/hexa.svg" height="54px"></div>
     <h1 class="staggeredAnim content-title">Pengumuman Staff Muda</h1>
-    <h6 class="staggeredAnim content-caption">Masukkan NIM !</h6>
-    <input class="staggeredAnim" type="text" placeholder="Check" v-model="filterText">
-    <button class="staggered-right" type="submit" v-on:click="getPost" >Cari</button>
-    <h3 class="async-msg" v-if="responsemsg != '' ">{{ responsemsg }}</h3>
+    <input class="staggeredAnim" type="text" placeholder="Masukkan NIM" v-model="filterText">
+    <button class="staggered-right" type="submit" @click='getPost()' >Cari</button>
+    <h1 class="async-msg" v-if="responsemsg !== ''">{{ responsemsg }}</h1>
+     <h1 class="async-msg" v-if="blogData.data.status == 'Diterima' ">Selamat, {{ blogData.data.nama }}.<br> Kamu diterima sebagai staff muda HIMATEKKOM.</h1>
+     <h1 class="async-msg" v-if="blogData.data.status == 'Ditolak' ">Semangat ya, {{ blogData.data.nama }}.<br> Untuk saat ini kamu belum diterima sebagai staff muda HIMATEKKOM.<br> Silahkan mencoba di open recruitment staff ahli ya. Tetap berkontribusi untuk Himpunan kita.</h1>
     <img class="loading" src="/public/assets/spiner-802.svg" v-if="postLoad">
     <div class="back-header"></div>
   </div>
 </template>
 
 <script>
-
+  const axios = require('axios');
   export default {
     data () {
       return {
         postLoad: true,
         filterText: "",
+        blogData : {},
         list : [
           {
-            class: 'grid-sizer'
+            class: 'grid-sizer',
           }
         ],
         responsemsg : ''
@@ -48,22 +50,17 @@
         
       },
       getPost () {
-        this.postLoad = true;
-        this.$http.get('/public/posts/feeds.php?c=staffMuda&t=staffM&p='+this.filterText).then(response => {
-          if (!response.body.list) {
-            this.errorMsg('NIM tidak ditemukan.');
-          } else {
-            this.list = this.list.concat(response.body.list);
-          }
-          this.$refs.cpt.layout('masonry');
+        this.postLoad = true;    
+        this.$http.get('http://himatekkom.ub.ac.id/public/posts/feeds.php?c=staffMuda&t=staffM&p='+this.filterText).then(response => {
+          if (typeof response.data !=== 'object') {
+            this.responsemsg = 'Nim tidak terdaftar.'
+          }else {
+              this.blogData = response.data
+            }
         }, response => {
           this.errorMsg('Terjadi kesalahan server.');
-        })
-      }
-    },
-    watch: {
-      filterText (val) {
-        this.$refs.cpt.filter('byText');
+        }),
+        this.postLoad = false;
       }
     },
     mounted () {

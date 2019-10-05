@@ -9,7 +9,6 @@ date_default_timezone_set("Asia/Jakarta");
 include 'connect.php';
 
 $type = $_GET['t'];
-$par = $_GET['p'];
 
 function get_list($connect, $what) {
 
@@ -158,11 +157,12 @@ function get_data($connect, $what) {
 
 function get_staff($connect, $what, $params) {
 
-	if (!isset($params)){
+	if (!isset($_GET['p'])){
 		echo false;
 		exit;
 	}
 
+	$params = $_GET['p'];
 	$sql = "SELECT *
 			FROM $what
 			WHERE nim = '$params'";

@@ -5,7 +5,7 @@
 // $dbpass = '12345678';
 // $dbname = 'himatekkom';
 
-$dbhost = 'https://db-hosting.ub.ac.id';
+$dbhost = 'localhost';
 $dbuser = 'himatekkomub';
 $dbpass = 'kutqquipwj';
 $dbname = 'db_himatekkomub';
