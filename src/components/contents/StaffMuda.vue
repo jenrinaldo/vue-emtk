@@ -54,8 +54,8 @@
         this.$http.get('http://himatekkom.ub.ac.id/public/posts/feeds.php?c=staffMuda&t=staffM&p='+this.filterText).then(response => {
           if (typeof response.data !=== 'object') {
             this.responsemsg = 'Nim tidak terdaftar.'
-          }else {
-              this.blogData = response.data
+          } else {}
+            this.blogData = response.data
             }
         }, response => {
           this.errorMsg('Terjadi kesalahan server.');
