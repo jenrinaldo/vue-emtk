@@ -24,6 +24,7 @@ import Blog from './components/contents/Blog.vue'
 import Blogread from './components/contents/Blogread.vue'
 
 import Pengumuman from './components/contents/Pengumuman.vue'
+import StaffMuda from './components/contents/StaffMuda.vue'
 import Pengread from './components/contents/Pengread.vue'
 
 import Beasiswa from './components/contents/Beasiswa.vue'
@@ -159,6 +160,10 @@ export default [
 	{
 		path: '/pengumuman',
 		component: Pengumuman
+	},
+	{
+		path: '/staffMuda',
+		component: StaffMuda
 	},
 	{
 		path: '/pengumuman/:link',

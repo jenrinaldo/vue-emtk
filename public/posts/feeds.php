@@ -8,6 +8,21 @@ date_default_timezone_set("Asia/Jakarta");
 
 include 'connect.php';
 
+$condition = "1";
+if(isset($_GET['filterText'])){
+   $condition = " id=".$_GET['filterText'];
+}
+$userData = mysqli_query($con,"select * from staffMuda WHERE ".$condition);
+
+$response = array();
+
+while($row = mysqli_fetch_assoc($userData)){
+
+   $response[] = $row;
+}
+
+echo json_encode($response);
+
 $type = $_GET['t'];
 
 function get_list($connect, $what) {
