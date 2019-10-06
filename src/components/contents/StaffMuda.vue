@@ -9,16 +9,17 @@
     <h1 class="staggeredAnim content-title">Pengumuman Staff Muda</h1>
     <input class="staggeredAnim" type="text" placeholder="Masukkan NIM" v-model="filterText" v-on:keyup="getData()" />
     <h1 class="async-msg" v-if="responsemsg !== ''">{{ responsemsg }}</h1>
-    <h1 class="async-msg" v-if="blogData.data.status == 'DITERIMA' ">
-        Selamat, {{ blogData.data.nama }}.
+    <h1 class="async-msg" v-if="blogData.status == 'DITERIMA' ">
+        Selamat, {{ blogData.nama }}.
         <br />Kamu diterima sebagai staff muda HIMATEKKOM.
         <br />Info !
         <h6>Jangan Lupa datang first gathering pada Jumat, 11 Oktober 2019 Pukul 19.00 di A2.25 ya!</h6>
     </h1>
-    <h1 class="async-msg" v-if="blogData.data.status == 'DITOLAK' ">
-        Semangat ya, {{ blogData.data.nama }}.
+    <h1 class="async-msg" v-if="blogData.status == 'DITOLAK' ">
+        Semangat ya, {{ blogData.nama }}.
         <br />Untuk saat ini kamu belum diterima sebagai staff muda HIMATEKKOM.
-        <br />Silahkan mencoba di open recruitment staff ahli ya. Tetap berkontribusi untuk Himpunan kita.
+        <br />Silahkan mencoba di open recruitment staff ahli ya.
+        <br /> Tetap berkontribusi untuk Himpunan kita.
     </h1>
     <img class="loading" src="/public/assets/spiner-802.svg" v-if="postLoad" />
     <div class="back-header"></div>
@@ -63,9 +64,6 @@ export default {
             }, 800);
         },
         getData() {
-            if (this.filterText == "") {
-                this.responsemsg = "Masukkan NIM."
-            }
             this.postLoad = true;
             axios
                 .get(
@@ -74,10 +72,12 @@ export default {
                 )
                 .then(response => {
                     this.blogData = response.data;
-                    if (this.blogData.data == false) {
-                        this.responsemsg = "Kamu kan gak daftar :p.";
+                    if (this.blogData === false && this.filterText != "") {
+                        this.responsemsg = "Kamu kan gak daftar :p";
+                    } else if (this.filterText == "") {
+                        this.responsemsg = "Masukkan NIM";
                     } else {
-                        this.responsemsg = "";
+                     this.responsemsg = ""; 
                     }
                 })
                 .catch(error => {

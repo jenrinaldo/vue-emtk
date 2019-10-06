@@ -180,11 +180,11 @@ function get_staff($connect, $what, $params) {
 		$json->nama = $row['nama'];
 		$json->status = $row['status'];
 
-		$result->data = $json;
+		$result = $json;
 
 	} else {
 		
-		$result->data = false;
+		$result = false;
 	}
 
 	return $result;
