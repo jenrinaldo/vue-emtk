@@ -67,7 +67,7 @@ export default {
             this.postLoad = true;
             axios
                 .get(
-                    "http://himatekkom.ub.ac.id/public/posts/feeds.php?c=staffMuda&t=staffM&p=" +
+                    "/public/posts/feeds.php?c=staffMuda&t=staffM&p=" +
                     this.filterText
                 )
                 .then(response => {
